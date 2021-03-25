@@ -1,0 +1,842 @@
+'isCode': True,
+'_id': '6059fdcbb3ae30315afc2185',
+'key': 'hw_config_has_led',
+'value': 'true',
+'keyLocale': 'HW config has led',
+'valueLocale': 'Yes'
+}, {
+    'isCode': True,
+    '_id': '6059fdcbb3ae30315afc2186',
+    'key': 'hw_config_has_leakage',
+    'value': 'false',
+    'keyLocale': 'HW config has leak detector',
+    'valueLocale': 'No'
+}, {
+    'isCode': True,
+    '_id': '6059fdcbb3ae30315afc2187',
+    'key': 'hw_config_has_button',
+    'value': 'true',
+    'keyLocale': 'HW config has button',
+    'valueLocale': 'Yes'
+}, {
+    'isCode': False,
+    '_id': '6059fdcbb3ae30315afc2188',
+    'key': 'hw_config_accelerometer_type',
+    'value': 'LIS2DH12',
+    'keyLocale': 'HW config accelerometer type',
+    'valueLocale': 'LIS2DH12'
+}, {
+    'isCode': True,
+    '_id': '6059fdcbb3ae30315afc2189',
+    'key': 'hw_config_has_reed',
+    'value': 'true',
+    'keyLocale': 'HW config has reed switch',
+    'valueLocale': 'Yes'
+}, {
+    'isCode': True,
+    '_id': '6059fdcbb3ae30315afc218a',
+    'key': 'hw_config_has_light',
+    'value': 'true',
+    'keyLocale': 'HW config has light sensor',
+    'valueLocale': 'Yes'
+}, {
+    'isCode': True,
+    '_id': '6059fdcbb3ae30315afc218b',
+    'key': 'hw_config_has_beeper',
+    'value': 'false',
+    'keyLocale': 'HW config has beeper',
+    'valueLocale': 'No'
+}, {
+    'isCode': True,
+    '_id': '6059fdcbb3ae30315afc218c',
+    'key': 'hw_config_has_wifi',
+    'value': 'true',
+    'keyLocale': 'HW config has WiFi',
+    'valueLocale': 'Yes'
+}, {
+    'isCode': True,
+    '_id': '6059fdcbb3ae30315afc218d',
+    'key': 'hw_config_temp_type',
+    'value': 'temp_and_humidity',
+    'keyLocale': 'HW config temperature sensor',
+    'valueLocale': 'Temperature and relative humidity'
+}, {
+    'isCode': True,
+    '_id': '6059fdcbb3ae30315afc218e',
+    'key': 'mode',
+    'value': 'reed_counter',
+    'keyLocale': 'Mode',
+    'valueLocale': 'Reed counter'
+}
+],
+'timestamp': 1616510411,
+'type': 'data_bidir',
+'seqNumber': 26,
+'deviceId': '2203AAB',
+'created': '2021-03-23T14:40:11.719Z',
+'__v': 0
+}, {
+    '_id': '6059fdebb3ae30315afc246a',
+    'keys': [{
+            'isCode': True,
+            '_id': '6059fdebb3ae30315afc246c',
+            'key': 'action',
+            'value': 'device_setting_confirmed',
+            'keyLocale': 'Action',
+            'valueLocale': 'Device setting confirmed',
+            'icon': 'fa-info-circle'
+        }
+    ],
+    'timestamp': 1616510411,
+    'type': 'service_ack',
+    'deviceId': '2203AAB',
+    'created': '2021-03-23T14:40:43.586Z',
+    '__v': 0
+}, {
+    '_id': '6059deb1b3ae30315af9dd17',
+    'keys': [{
+            'isCode': True,
+            '_id': '6059deb1b3ae30315af9dd19',
+            'key': 'action',
+            'value': 'heartbeat_1',
+            'keyLocale': 'Action',
+            'valueLocale': 'Heartbeat 1',
+            'icon': 'fa-heartbeat'
+        }, {
+            'isCode': False,
+            '_id': '6059deb1b3ae30315af9dd1a',
+            'key': 'battery',
+            'value': '3',
+            'unit': 'V',
+            'keyLocale': 'Battery',
+            'valueLocale': '3',
+            'icon': 'fa-battery-half'
+        }, {
+            'isCode': False,
+            '_id': '6059deb1b3ae30315af9dd1b',
+            'key': 'temperature',
+            'value': '18.5',
+            'unit': '°C',
+            'keyLocale': 'Temperature',
+            'valueLocale': '18.5',
+            'icon': 'fa-thermometer-half'
+        }, {
+            'isCode': True,
+            '_id': '6059deb1b3ae30315af9dd1c',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616502448,
+    'type': 'data_bidir',
+    'seqNumber': 24,
+    'deviceId': '2203AAB',
+    'created': '2021-03-23T12:27:29.614Z',
+    '__v': 0
+}, {
+    '_id': '605888a70219e21f309428e2',
+    'keys': [{
+            'isCode': True,
+            '_id': '605888a70219e21f309428e4',
+            'key': 'action',
+            'value': 'heartbeat_1',
+            'keyLocale': 'Action',
+            'valueLocale': 'Heartbeat 1',
+            'icon': 'fa-heartbeat'
+        }, {
+            'isCode': False,
+            '_id': '605888a70219e21f309428e5',
+            'key': 'battery',
+            'value': '3',
+            'unit': 'V',
+            'keyLocale': 'Battery',
+            'valueLocale': '3',
+            'icon': 'fa-battery-half'
+        }, {
+            'isCode': False,
+            '_id': '605888a70219e21f309428e6',
+            'key': 'temperature',
+            'value': '18.5',
+            'unit': '°C',
+            'keyLocale': 'Temperature',
+            'valueLocale': '18.5',
+            'icon': 'fa-thermometer-half'
+        }, {
+            'isCode': True,
+            '_id': '605888a70219e21f309428e7',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616414882,
+    'type': 'data_bidir',
+    'seqNumber': 23,
+    'deviceId': '2203AAB',
+    'created': '2021-03-22T12:08:07.485Z',
+    '__v': 0
+}, {
+    '_id': '6057328115161419e48cfba4',
+    'keys': [{
+            'isCode': True,
+            '_id': '6057328115161419e48cfba6',
+            'key': 'action',
+            'value': 'reed_counter',
+            'keyLocale': 'Action',
+            'valueLocale': 'Reed counter',
+            'icon': 'fa-info-circle'
+        }, {
+            'isCode': True,
+            '_id': '6057328115161419e48cfba7',
+            'key': 'counter',
+            'value': '6',
+            'keyLocale': 'Counter',
+            'valueLocale': '6',
+            'icon': 'fa-abacus'
+        }, {
+            'isCode': True,
+            '_id': '6057328115161419e48cfba8',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616327290,
+    'type': 'data_bidir',
+    'seqNumber': 22,
+    'deviceId': '2203AAB',
+    'created': '2021-03-21T11:48:17.267Z',
+    '__v': 0
+}, {
+    '_id': '6057327574c45377d268b30a',
+    'keys': [{
+            'isCode': True,
+            '_id': '6057327574c45377d268b30c',
+            'key': 'action',
+            'value': 'heartbeat_1',
+            'keyLocale': 'Action',
+            'valueLocale': 'Heartbeat 1',
+            'icon': 'fa-heartbeat'
+        }, {
+            'isCode': False,
+            '_id': '6057327574c45377d268b30d',
+            'key': 'battery',
+            'value': '3',
+            'unit': 'V',
+            'keyLocale': 'Battery',
+            'valueLocale': '3',
+            'icon': 'fa-battery-half'
+        }, {
+            'isCode': False,
+            '_id': '6057327574c45377d268b30e',
+            'key': 'temperature',
+            'value': '18',
+            'unit': '°C',
+            'keyLocale': 'Temperature',
+            'valueLocale': '18',
+            'icon': 'fa-thermometer-half'
+        }, {
+            'isCode': True,
+            '_id': '6057327574c45377d268b30f',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616327281,
+    'type': 'data_bidir',
+    'seqNumber': 21,
+    'deviceId': '2203AAB',
+    'created': '2021-03-21T11:48:05.503Z',
+    '__v': 0
+}, {
+    '_id': '60565e97ca1391240368d04e',
+    'keys': [{
+            'isCode': True,
+            '_id': '60565e97ca1391240368d050',
+            'key': 'action',
+            'value': 'heartbeat_2',
+            'keyLocale': 'Action',
+            'valueLocale': 'Heartbeat 2',
+            'icon': 'fa-heartbeat'
+        }, {
+            'isCode': False,
+            '_id': '60565e97ca1391240368d051',
+            'key': 'battery',
+            'value': '3',
+            'unit': 'V',
+            'keyLocale': 'Battery',
+            'valueLocale': '3',
+            'icon': 'fa-battery-half'
+        }, {
+            'isCode': False,
+            '_id': '60565e97ca1391240368d052',
+            'key': 'temperature',
+            'value': '17.5',
+            'unit': '°C',
+            'keyLocale': 'Temperature',
+            'valueLocale': '17.5',
+            'icon': 'fa-thermometer-half'
+        }, {
+            'isCode': True,
+            '_id': '60565e97ca1391240368d053',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616273045,
+    'type': 'data_bidir',
+    'seqNumber': 20,
+    'deviceId': '2203AAB',
+    'created': '2021-03-20T20:44:07.690Z',
+    '__v': 0
+}, {
+    '_id': '6055dcaa0302862bbf960f20',
+    'keys': [{
+            'isCode': True,
+            '_id': '6055dcaa0302862bbf960f22',
+            'key': 'action',
+            'value': 'heartbeat_1',
+            'keyLocale': 'Action',
+            'valueLocale': 'Heartbeat 1',
+            'icon': 'fa-heartbeat'
+        }, {
+            'isCode': False,
+            '_id': '6055dcaa0302862bbf960f23',
+            'key': 'battery',
+            'value': '3',
+            'unit': 'V',
+            'keyLocale': 'Battery',
+            'valueLocale': '3',
+            'icon': 'fa-battery-half'
+        }, {
+            'isCode': False,
+            '_id': '6055dcaa0302862bbf960f24',
+            'key': 'temperature',
+            'value': '20',
+            'unit': '°C',
+            'keyLocale': 'Temperature',
+            'valueLocale': '20',
+            'icon': 'fa-thermometer-half'
+        }, {
+            'isCode': True,
+            '_id': '6055dcaa0302862bbf960f25',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616239785,
+    'type': 'data_bidir',
+    'seqNumber': 19,
+    'deviceId': '2203AAB',
+    'created': '2021-03-20T11:29:46.632Z',
+    '__v': 0
+}, {
+    '_id': '6054871168c1073b17870fbe',
+    'keys': [{
+            'isCode': True,
+            '_id': '6054871168c1073b17870fc0',
+            'key': 'action',
+            'value': 'reed_counter',
+            'keyLocale': 'Action',
+            'valueLocale': 'Reed counter',
+            'icon': 'fa-info-circle'
+        }, {
+            'isCode': True,
+            '_id': '6054871168c1073b17870fc1',
+            'key': 'counter',
+            'value': '2',
+            'keyLocale': 'Counter',
+            'valueLocale': '2',
+            'icon': 'fa-abacus'
+        }, {
+            'isCode': True,
+            '_id': '6054871168c1073b17870fc2',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616152337,
+    'type': 'data_bidir',
+    'seqNumber': 18,
+    'deviceId': '2203AAB',
+    'created': '2021-03-19T11:12:17.899Z',
+    '__v': 0
+}, {
+    '_id': '605487095ad93a42b974e5bf',
+    'keys': [{
+            'isCode': True,
+            '_id': '605487095ad93a42b974e5c1',
+            'key': 'action',
+            'value': 'heartbeat_1',
+            'keyLocale': 'Action',
+            'valueLocale': 'Heartbeat 1',
+            'icon': 'fa-heartbeat'
+        }, {
+            'isCode': False,
+            '_id': '605487095ad93a42b974e5c2',
+            'key': 'battery',
+            'value': '3',
+            'unit': 'V',
+            'keyLocale': 'Battery',
+            'valueLocale': '3',
+            'icon': 'fa-battery-half'
+        }, {
+            'isCode': False,
+            '_id': '605487095ad93a42b974e5c3',
+            'key': 'temperature',
+            'value': '21',
+            'unit': '°C',
+            'keyLocale': 'Temperature',
+            'valueLocale': '21',
+            'icon': 'fa-thermometer-half'
+        }, {
+            'isCode': True,
+            '_id': '605487095ad93a42b974e5c4',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616152328,
+    'type': 'data_bidir',
+    'seqNumber': 17,
+    'deviceId': '2203AAB',
+    'created': '2021-03-19T11:12:09.689Z',
+    '__v': 0
+}, {
+    '_id': '605331f17022e578581060d7',
+    'keys': [{
+            'isCode': True,
+            '_id': '605331f17022e578581060d9',
+            'key': 'action',
+            'value': 'heartbeat_1',
+            'keyLocale': 'Action',
+            'valueLocale': 'Heartbeat 1',
+            'icon': 'fa-heartbeat'
+        }, {
+            'isCode': False,
+            '_id': '605331f17022e578581060da',
+            'key': 'battery',
+            'value': '3',
+            'unit': 'V',
+            'keyLocale': 'Battery',
+            'valueLocale': '3',
+            'icon': 'fa-battery-half'
+        }, {
+            'isCode': False,
+            '_id': '605331f17022e578581060db',
+            'key': 'temperature',
+            'value': '24.5',
+            'unit': '°C',
+            'keyLocale': 'Temperature',
+            'valueLocale': '24.5',
+            'icon': 'fa-thermometer-half'
+        }, {
+            'isCode': True,
+            '_id': '605331f17022e578581060dc',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616064993,
+    'type': 'data_bidir',
+    'seqNumber': 16,
+    'deviceId': '2203AAB',
+    'created': '2021-03-18T10:56:49.754Z',
+    '__v': 0
+}, {
+    '_id': '605331f27022e578581060fd',
+    'keys': [{
+            'isCode': True,
+            '_id': '605331f27022e578581060ff',
+            'key': 'action',
+            'value': 'armed',
+            'keyLocale': 'Action',
+            'valueLocale': 'Armed',
+            'icon': 'fa-info-circle'
+        }, {
+            'isCode': True,
+            '_id': '605331f27022e57858106100',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616064985,
+    'type': 'data_bidir',
+    'seqNumber': 15,
+    'deviceId': '2203AAB',
+    'created': '2021-03-18T10:56:50.969Z',
+    '__v': 0
+}, {
+    '_id': '605331c5db7bb56fadb29fb6',
+    'keys': [{
+            'isCode': True,
+            '_id': '605331c5db7bb56fadb29fb8',
+            'key': 'action',
+            'value': 'arming_started',
+            'keyLocale': 'Action',
+            'valueLocale': 'Arming started',
+            'icon': 'fa-info-circle'
+        }, {
+            'isCode': True,
+            '_id': '605331c5db7bb56fadb29fb9',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616064963,
+    'type': 'data_bidir',
+    'seqNumber': 14,
+    'deviceId': '2203AAB',
+    'created': '2021-03-18T10:56:05.116Z',
+    '__v': 0
+}, {
+    '_id': '605331947022e57858105bf8',
+    'keys': [{
+            'isCode': True,
+            '_id': '605331947022e57858105bfa',
+            'key': 'action',
+            'value': 'extra_long_press',
+            'keyLocale': 'Action',
+            'valueLocale': 'Extra long press',
+            'color': 'alarm',
+            'icon': 'fa-circle'
+        }, {
+            'isCode': False,
+            '_id': '605331947022e57858105bfb',
+            'key': 'version',
+            'value': '6',
+            'keyLocale': 'Version',
+            'valueLocale': '6',
+            'icon': 'fa-code-branch'
+        }, {
+            'isCode': False,
+            '_id': '605331947022e57858105bfc',
+            'key': 'firmware',
+            'value': '1.0',
+            'keyLocale': 'Firmware',
+            'valueLocale': '1.0',
+            'icon': 'fa-code-branch'
+        }, {
+            'isCode': True,
+            '_id': '605331947022e57858105bfd',
+            'key': 'hw_config_has_led',
+            'value': 'true',
+            'keyLocale': 'HW config has led',
+            'valueLocale': 'Yes'
+        }, {
+            'isCode': True,
+            '_id': '605331947022e57858105bfe',
+            'key': 'hw_config_has_leakage',
+            'value': 'false',
+            'keyLocale': 'HW config has leak detector',
+            'valueLocale': 'No'
+        }, {
+            'isCode': True,
+            '_id': '605331947022e57858105bff',
+            'key': 'hw_config_has_button',
+            'value': 'true',
+            'keyLocale': 'HW config has button',
+            'valueLocale': 'Yes'
+        }, {
+            'isCode': False,
+            '_id': '605331947022e57858105c00',
+            'key': 'hw_config_accelerometer_type',
+            'value': 'LIS2DH12',
+            'keyLocale': 'HW config accelerometer type',
+            'valueLocale': 'LIS2DH12'
+        }, {
+            'isCode': True,
+            '_id': '605331947022e57858105c01',
+            'key': 'hw_config_has_reed',
+            'value': 'true',
+            'keyLocale': 'HW config has reed switch',
+            'valueLocale': 'Yes'
+        }, {
+            'isCode': True,
+            '_id': '605331947022e57858105c02',
+            'key': 'hw_config_has_light',
+            'value': 'true',
+            'keyLocale': 'HW config has light sensor',
+            'valueLocale': 'Yes'
+        }, {
+            'isCode': True,
+            '_id': '605331947022e57858105c03',
+            'key': 'hw_config_has_beeper',
+            'value': 'false',
+            'keyLocale': 'HW config has beeper',
+            'valueLocale': 'No'
+        }, {
+            'isCode': True,
+            '_id': '605331947022e57858105c04',
+            'key': 'hw_config_has_wifi',
+            'value': 'true',
+            'keyLocale': 'HW config has WiFi',
+            'valueLocale': 'Yes'
+        }, {
+            'isCode': True,
+            '_id': '605331947022e57858105c05',
+            'key': 'hw_config_temp_type',
+            'value': 'temp_and_humidity',
+            'keyLocale': 'HW config temperature sensor',
+            'valueLocale': 'Temperature and relative humidity'
+        }, {
+            'isCode': True,
+            '_id': '605331947022e57858105c06',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616064913,
+    'type': 'data_bidir',
+    'seqNumber': 13,
+    'deviceId': '2203AAB',
+    'created': '2021-03-18T10:55:16.413Z',
+    '__v': 0
+}, {
+    '_id': '60525e452ccddf2fbb7d7e8e',
+    'keys': [{
+            'isCode': True,
+            '_id': '60525e452ccddf2fbb7d7e90',
+            'key': 'action',
+            'value': 'heartbeat_2',
+            'keyLocale': 'Action',
+            'valueLocale': 'Heartbeat 2',
+            'icon': 'fa-heartbeat'
+        }, {
+            'isCode': False,
+            '_id': '60525e452ccddf2fbb7d7e91',
+            'key': 'battery',
+            'value': '3',
+            'unit': 'V',
+            'keyLocale': 'Battery',
+            'valueLocale': '3',
+            'icon': 'fa-battery-half'
+        }, {
+            'isCode': False,
+            '_id': '60525e452ccddf2fbb7d7e92',
+            'key': 'temperature',
+            'value': '18.5',
+            'unit': '°C',
+            'keyLocale': 'Temperature',
+            'valueLocale': '18.5',
+            'icon': 'fa-thermometer-half'
+        }, {
+            'isCode': True,
+            '_id': '60525e452ccddf2fbb7d7e93',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'timestamp': 1616010821,
+    'type': 'data_bidir',
+    'seqNumber': 12,
+    'deviceId': '2203AAB',
+    'created': '2021-03-17T19:53:41.998Z',
+    '__v': 0
+}, {
+    '_id': '604e5f16362d421c28142e0c',
+    'isAlarm': False,
+    'isDismissed': False,
+    'timestamp': 1615748883,
+    'type': 'data_bidir',
+    'seqNumber': 11,
+    'keys': [{
+            'isCode': True,
+            '_id': '604e5f16362d421c28142e14',
+            'key': 'action',
+            'value': 'dl_confirm_last',
+            'keyLocale': 'Action',
+            'valueLocale': 'Downlink confirmation (last)',
+            'icon': 'fa-info-circle'
+        }, {
+            'isCode': True,
+            '_id': '604e5f16362d421c28142e15',
+            'key': 'mode',
+            'value': 'reed_counter',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Reed counter'
+        }
+    ],
+    'deviceId': '2203AAB',
+    'created': '2021-03-14T19:08:06.888Z',
+    '__v': 0
+}, {
+    '_id': '604e5ef2362d421c28142c94',
+    'isAlarm': False,
+    'isDismissed': False,
+    'timestamp': 1615748844,
+    'type': 'data_bidir',
+    'seqNumber': 9,
+    'keys': [{
+            'isCode': True,
+            '_id': '604e5ef2362d421c28142cb4',
+            'key': 'action',
+            'value': 'extra_long_press',
+            'keyLocale': 'Action',
+            'valueLocale': 'Extra long press',
+            'color': 'alarm',
+            'icon': 'fa-circle'
+        }, {
+            'isCode': False,
+            '_id': '604e5ef2362d421c28142cb5',
+            'key': 'version',
+            'value': '6',
+            'keyLocale': 'Version',
+            'valueLocale': '6',
+            'icon': 'fa-code-branch'
+        }, {
+            'isCode': False,
+            '_id': '604e5ef2362d421c28142cb6',
+            'key': 'firmware',
+            'value': '1.0',
+            'keyLocale': 'Firmware',
+            'valueLocale': '1.0',
+            'icon': 'fa-code-branch'
+        }, {
+            'isCode': True,
+            '_id': '604e5ef2362d421c28142cb7',
+            'key': 'hw_config_has_led',
+            'value': 'true',
+            'keyLocale': 'HW config has led',
+            'valueLocale': 'Yes'
+        }, {
+            'isCode': True,
+            '_id': '604e5ef2362d421c28142cb8',
+            'key': 'hw_config_has_leakage',
+            'value': 'false',
+            'keyLocale': 'HW config has leak detector',
+            'valueLocale': 'No'
+        }, {
+            'isCode': True,
+            '_id': '604e5ef2362d421c28142cb9',
+            'key': 'hw_config_has_button',
+            'value': 'true',
+            'keyLocale': 'HW config has button',
+            'valueLocale': 'Yes'
+        }, {
+            'isCode': False,
+            '_id': '604e5ef2362d421c28142cba',
+            'key': 'hw_config_accelerometer_type',
+            'value': 'LIS2DH12',
+            'keyLocale': 'HW config accelerometer type',
+            'valueLocale': 'LIS2DH12'
+        }, {
+            'isCode': True,
+            '_id': '604e5ef2362d421c28142cbb',
+            'key': 'hw_config_has_reed',
+            'value': 'true',
+            'keyLocale': 'HW config has reed switch',
+            'valueLocale': 'Yes'
+        }, {
+            'isCode': True,
+            '_id': '604e5ef2362d421c28142cbc',
+            'key': 'hw_config_has_light',
+            'value': 'true',
+            'keyLocale': 'HW config has light sensor',
+            'valueLocale': 'Yes'
+        }, {
+            'isCode': True,
+            '_id': '604e5ef2362d421c28142cbd',
+            'key': 'hw_config_has_beeper',
+            'value': 'false',
+            'keyLocale': 'HW config has beeper',
+            'valueLocale': 'No'
+        }, {
+            'isCode': True,
+            '_id': '604e5ef2362d421c28142cbe',
+            'key': 'hw_config_has_wifi',
+            'value': 'true',
+            'keyLocale': 'HW config has WiFi',
+            'valueLocale': 'Yes'
+        }, {
+            'isCode': True,
+            '_id': '604e5ef2362d421c28142cbf',
+            'key': 'hw_config_temp_type',
+            'value': 'temp_and_humidity',
+            'keyLocale': 'HW config temperature sensor',
+            'valueLocale': 'Temperature and relative humidity'
+        }, {
+            'isCode': True,
+            '_id': '604e5ef2362d421c28142cc0',
+            'key': 'mode',
+            'value': 'press_me',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Press Me'
+        }
+    ],
+    'deviceId': '2203AAB',
+    'created': '2021-03-14T19:07:30.830Z',
+    '__v': 0
+}, {
+    '_id': '604e5f0c362d421c28142dee',
+    'isAlarm': False,
+    'isDismissed': False,
+    'timestamp': 1615748844,
+    'type': 'service_ack',
+    'keys': [{
+            'isCode': True,
+            '_id': '604e5f0c362d421c28142df0',
+            'key': 'action',
+            'value': 'device_setting_confirmed',
+            'keyLocale': 'Action',
+            'valueLocale': 'Device setting confirmed',
+            'icon': 'fa-info-circle'
+        }
+    ],
+    'deviceId': '2203AAB',
+    'created': '2021-03-14T19:07:56.629Z',
+    '__v': 0
+}, {
+    '_id': '604e4cc55486724650d0aa09',
+    'isAlarm': False,
+    'isDismissed': False,
+    'timestamp': 1615744196,
+    'type': 'data_bidir',
+    'seqNumber': 8,
+    'keys': [{
+            'isCode': True,
+            '_id': '604e4cc55486724650d0aa0e',
+            'key': 'action',
+            'value': 'long_press',
+            'keyLocale': 'Action',
+            'valueLocale': 'Long press',
+            'color': 'alarm',
+            'icon': 'fa-bullseye'
+        }, {
+            'isCode': True,
+            '_id': '604e4cc55486724650d0aa0f',
+            'key': 'mode',
+            'value': 'press_me',
+            'keyLocale': 'Mode',
+            'valueLocale': 'Press Me'
+        }
+    ],
+    'deviceId': '2203AAB',
+    'created': '2021-03-14T17:49:57.356Z',
+    '__v': 0
+}
+]
