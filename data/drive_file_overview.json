@@ -1,0 +1,78 @@
+{
+    'kind': 'drive#file',
+    'id': '14Wsp12qalka6l82_W_GcPisSh-66_qEx',
+    'etag': '"MTYxNjc5MzU1MTAwMA"',
+    'selfLink': 'https://www.googleapis.com/drive/v2/files/14Wsp12qalka6l82_W_GcPisSh-66_qEx',
+    'webContentLink': 'https://drive.google.com/uc?id=14Wsp12qalka6l82_W_GcPisSh-66_qEx&export=download',
+    'alternateLink': 'https://drive.google.com/file/d/14Wsp12qalka6l82_W_GcPisSh-66_qEx/view?usp=drivesdk',
+    'embedLink': 'https://drive.google.com/file/d/14Wsp12qalka6l82_W_GcPisSh-66_qEx/preview?usp=drivesdk',
+    'iconLink': 'https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+    'thumbnailLink': 'https://lh3.googleusercontent.com/fgmFr5-behvQmciiqOoCTPUuXkcaSE7WCejvANEliv4d6C-EQapc5sft8ZJm1mX_bgy5llK0danZqyM=s220',
+    'title': 'Datenerhebung_Kompotoi_21_sensor.xlsx',
+    'mimeType': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+    'labels': {
+        'starred': False,
+        'hidden': False,
+        'trashed': False,
+        'restricted': False,
+        'viewed': True
+    },
+    'copyRequiresWriterPermission': False,
+    'createdDate': '2021-03-26T21:19:28.735Z',
+    'modifiedDate': '2021-03-26T21:19:11.000Z',
+    'modifiedByMeDate': '2021-03-26T21:19:11.000Z',
+    'lastViewedByMeDate': '2021-03-26T21:19:28.735Z',
+    'markedViewedByMeDate': '1970-01-01T00:00:00.000Z',
+    'version': '2',
+    'parents': [{
+            'kind': 'drive#parentReference',
+            'id': '1pxYux33QnFcvrpP17Q88_xY1nW79aJL-',
+            'selfLink': 'https://www.googleapis.com/drive/v2/files/14Wsp12qalka6l82_W_GcPisSh-66_qEx/parents/1pxYux33QnFcvrpP17Q88_xY1nW79aJL-',
+            'parentLink': 'https://www.googleapis.com/drive/v2/files/1pxYux33QnFcvrpP17Q88_xY1nW79aJL-',
+            'isRoot': False
+        }
+    ],
+    'downloadUrl': 'https://www.googleapis.com/drive/v2/files/14Wsp12qalka6l82_W_GcPisSh-66_qEx?alt=media&source=downloadUrl',
+    'userPermission': {
+        'kind': 'drive#permission',
+        'etag': '"8tfAW7KPOTf_M8jEFVjRDORq8gc"',
+        'id': 'me',
+        'selfLink': 'https://www.googleapis.com/drive/v2/files/14Wsp12qalka6l82_W_GcPisSh-66_qEx/permissions/me',
+        'role': 'owner',
+        'type': 'user'
+    },
+    'originalFilename': 'Datenerhebung_Kompotoi_21_sensor.xlsx',
+    'fileExtension': 'xlsx',
+    'md5Checksum': 'ad834d809a58d74f34a0c55c7cfe83a0',
+    'fileSize': '20296',
+    'quotaBytesUsed': '20296',
+    'ownerNames': ['Pascal Berger'],
+    'owners': [{
+            'kind': 'drive#user',
+            'displayName': 'Pascal Berger',
+            'isAuthenticatedUser': True,
+            'permissionId': '13414944967758792359',
+            'emailAddress': 'pascal.berger21@gmail.com'
+        }
+    ],
+    'lastModifyingUserName': 'Pascal Berger',
+    'lastModifyingUser': {
+        'kind': 'drive#user',
+        'displayName': 'Pascal Berger',
+        'isAuthenticatedUser': True,
+        'permissionId': '13414944967758792359',
+        'emailAddress': 'pascal.berger21@gmail.com'
+    },
+    'capabilities': {
+        'canCopy': True,
+        'canEdit': True
+    },
+    'editable': True,
+    'copyable': True,
+    'writersCanShare': True,
+    'shared': True,
+    'explicitlyTrashed': False,
+    'appDataContents': False,
+    'headRevisionId': '0Bwt62VWjwonqQ3oxWk4vVkxUTGNiZTBlWG1jSDlFc1BRMmFnPQ',
+    'spaces': ['drive']
+}
