@@ -14292,7 +14292,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Alle-'page'-files-im-Order-einlesen">Alle 'page' files im Order einlesen<a class="anchor-link" href="#Alle-'page'-files-im-Order-einlesen">&#182;</a></h4>
+<h4 id="Alle-'page'-files-von-Sigfox-Plattform-im-Datenorder-einlesen">Alle 'page' files von Sigfox Plattform im Datenorder einlesen<a class="anchor-link" href="#Alle-'page'-files-von-Sigfox-Plattform-im-Datenorder-einlesen">&#182;</a></h4>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -15235,6 +15235,7 @@ Event Counter:  63 	 Event Counter(hex):  	 3f
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Temperaturen&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Temperaturen [C°]&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;./Jupyter Notebook Grafiken/Füllstandsensor1_Temperatur.png&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -15533,6 +15534,7 @@ Messwerte kleiner 5 können entfernt werden. -&gt; Personen sitzt auf dem WC</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_sensoneo</span><span class="p">[</span><span class="s1">&#39;Distance&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;dodgerblue&#39;</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Rohe Messdaten alle 2h&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Distanz [cm]&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;./Jupyter Notebook Grafiken/Füllstandsensor1_Rohdaten.png&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -16163,6 +16165,7 @@ Messwerte kleiner 5 können entfernt werden. -&gt; Personen sitzt auf dem WC</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Messdaten kombiniert&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Distanz [cm]&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;./Jupyter Notebook Grafiken/Füllstandsensor1_Messdaten Tagesdurchschnitt_f1.png&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -16424,6 +16427,7 @@ Unklarheiten: Zeitraum 15.04 - 18.04 warum Wert grösser als 45cm</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Messdaten alle 2h&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Distanz [cm]&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;./Jupyter Notebook Grafiken/Füllstandsensor1_Messdaten Tagesdurchschnitt_f2.png&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -16473,6 +16477,7 @@ Unklarheiten: Zeitraum 15.04 - 18.04 warum Wert grösser als 45cm</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Messdaten kombiniert&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Distanz [cm]&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;./Jupyter Notebook Grafiken/Füllstandsensor1_Messdaten Tagesdurchschnitt_f3.png&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -16538,6 +16543,7 @@ Unklarheiten: Zeitraum 15.04 - 18.04 warum Wert grösser als 45cm</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Messdaten alle 2h&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Distanz [cm]&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;./Jupyter Notebook Grafiken/Füllstandsensor1_Messdaten Tagesdurchschnitt_bar.png&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -16602,6 +16608,7 @@ Unklarheiten: Zeitraum 15.04 - 18.04 warum Wert grösser als 45cm</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Messdaten alle 2h&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Distanz [cm]&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;./Jupyter Notebook Grafiken/Füllstandsensor1_Messdaten Tagesdurchschnitt_treshhold.png&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -17564,6 +17571,7 @@ Name: deviceId, dtype: int64
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Counter&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Nutzungszeitraum zwischen Leerung&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;./Jupyter Notebook Grafiken/M4_Messdaten Nutzungszeitraum.png&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -17597,14 +17605,24 @@ Name: deviceId, dtype: int64
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># counter_zeitfenster = (df_poc_m4.loc[&#39;2021-04-21 14:53:00.195000+00:00&#39;, &#39;counter&#39;][0]-df_poc_m4.iloc[0, 2]) + df_poc_m4.iloc[-1, 2]</span>
-<span class="c1"># print(&#39;Magnet Auslösungen im Nutzungszeitraum: &#39;, counter_zeitfenster)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">counter_byreset</span> <span class="o">=</span> <span class="n">df_poc_m4</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s1">&#39;2021-04-21 14:53:00.195000+00:00&#39;</span><span class="p">,</span> <span class="s1">&#39;counter&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">counter_start</span>   <span class="o">=</span> <span class="n">counter_start</span>   <span class="o">=</span> <span class="n">df_poc_m4</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="n">df_sensoneo</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">get_loc</span><span class="p">(</span><span class="s1">&#39;Distance&#39;</span><span class="p">)]</span>
+<span class="n">counter_ende</span>    <span class="o">=</span> <span class="n">df_poc_m4</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">df_sensoneo</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">get_loc</span><span class="p">(</span><span class="s1">&#39;Distance&#39;</span><span class="p">)]</span>
+
+<span class="n">counter_zeitfenster</span> <span class="o">=</span> <span class="n">counter_byreset</span> <span class="o">-</span> <span class="n">counter_start</span> <span class="o">+</span> <span class="n">counter_ende</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Magnet Auslösungen im Nutzungszeitraum: &#39;</span><span class="p">,</span> <span class="n">counter_zeitfenster</span><span class="p">,</span> <span class="s1">&#39;Achtung fehlende Daten&#39;</span><span class="p">)</span>
+
+<span class="c1"># Messzeitraum durch Anzahl Messtage(6) * Zeitraum Leerung (8)</span>
+<span class="n">messtage</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_poc_m4</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">day</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span>
+<span class="n">zeitraum</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_poc</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">day</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span>
+<span class="n">counter_schätzung</span> <span class="o">=</span> <span class="p">(</span><span class="n">counter_zeitfenster</span> <span class="o">/</span> <span class="n">messtage</span><span class="p">)</span> <span class="o">*</span> <span class="n">zeitraum</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Daten Hochrechnen bis zum 25.04: &#39;</span><span class="p">,</span> <span class="n">counter_schätzung</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -17612,6 +17630,34 @@ Name: deviceId, dtype: int64
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Magnet Auslösungen im Nutzungszeitraum:  171.0 Achtung fehlende Daten
+Daten Hochrechnen bis zum 25.04:  228.0
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Hier fehlen noch die Messdaten über den Störungszeitraum des Sensors</p>
+
+</div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -17766,6 +17812,7 @@ Name: deviceId, dtype: int64
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;M3: Reed Counter&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Counter&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Nutzungszeitraum zwischen Leerung&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;./Jupyter Notebook Grafiken/M3_Messdaten Nutzungszeitraum.png&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
@@ -17996,6 +18043,7 @@ Name: deviceId, dtype: int64
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;B1: &quot;first move&quot;&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Counter&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Nutzungszeitraum zwischen Leerung&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;./Jupyter Notebook Grafiken/B1_Messdaten Nutzungszeitraum.png&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
